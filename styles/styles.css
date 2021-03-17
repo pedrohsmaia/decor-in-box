@@ -1,0 +1,166 @@
+* {
+ text-align: left;
+}
+
+/* navbar superior */
+
+.topnav {
+ padding: 10px 16px;
+ background: #000000;
+ color: #fff;
+ white-space: nowrap;
+}
+   
+ .content {
+ padding: 16px;
+}
+   
+.sticky {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+}
+   
+.sticky + .content {
+ padding-top: 102px;
+}
+
+/* botões da navbar */
+
+.topnav a {
+ position: relative;
+ font-family: "Roboto Mono", "Trebuchet MS";
+ font-size: 18px;
+ font-weight: 400;
+ color: #fff;
+ text-decoration: none;
+ display: inline-block;
+ padding-bottom: 5px;
+ padding-top: 5px;
+ padding-right: 40px;
+ bottom: 25px;
+}
+
+.topnav a:hover {
+ color: #ababab;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: "Montserrat Bold", "Verdana"
+}
+
+h1, h2, h5, h6 {
+ font-weight: 700;
+}
+
+h1 {
+ font-size: 48px;
+}
+
+h2 {
+ font-size: 32px;
+}
+
+h3 {
+ font-size: 26px;
+ font-weight: 400;
+}
+
+h4 {
+ font-size: 20px;
+ font-weight: 500;
+}
+
+h5 {
+ font-size: 18px;
+}
+
+h6 {
+ font-size: 16px;
+}
+
+p, a, ol, ul, button {
+ font-family: "Roboto Mono", "Trebuchet MS";
+ font-size: 12px;
+ font-weight: 400;
+ color: #fff;
+}
+
+/* configura o botão preto */
+
+.button1 {
+ display: inline-block;
+ text-align: center;
+ text-decoration: none;
+ outline: none;
+ color: #fff;
+ background-color: #000000;
+ border: none;
+}
+
+.button1:hover {
+ background-color: #fff;
+ border: #000000;
+ border-radius: 1px;
+ color: #000000;
+}
+
+.button1:active {
+ background-color: #515151;
+ color:#fff;
+}
+
+/* configura o botão branco */
+
+.button2 {
+ display: inline-block;
+ text-align: center;
+ text-decoration: none;
+ outline: none;
+ color: #000000;
+ background-color: #fff;
+ border: none;
+ font-weight: 700;
+}
+
+.button2:hover {
+    background-color: #000000;
+    border: none;
+    color: #fff;
+}
+
+.button2:active {
+ background-color: #515151;
+ color:#fff;
+}
+
+/* tamanho dos botões */
+
+.large {
+ font-size: 21px;
+ padding: 280px 60px;
+}
+
+.medium {
+ font-size: 17px;
+ padding: 10px 30px;
+ font-weight: 700;
+}
+
+.small {
+ font-size: 14px;
+ padding: 140px 40px;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    max-width: 249px;
+    max-height: 58px;
+    padding-top: 14px;
+    padding-right: 40px;
+    padding-bottom: 6px;
+    padding-left: 130px;
+   }
