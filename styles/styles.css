@@ -71,24 +71,44 @@ margin-bottom: 22px;
     }
     }
 
+    @media screen and (max-width: 767px) {
+        .imghero {
+            display: none;
+           }
+        }
 
     @media screen and (min-width: 768px) {
        .logo {
     margin-left: 18%;
-   } }
+   }
+   .button2 {
+       margin-left: 50px;
+   }
+   .image-heromobile{
+    display: none;
+   }
+}
 
+/* hero */
+
+.imghero {
+ background-image: url(images/backgroundcaixa.png);
+ background-position: center;
+ background-size: cover;
+}
+
+/* headings */
 h1, h2, h3, h4, h5, h6 {
  font-family: "Montserrat Bold", "Verdana"
 }
 
-/* headings */
-
 h1, h2, h5, h6 {
- font-weight: 700;
+ font-weight: 700!important;
 }
 
 h1 {
  font-size: 48px;
+ padding-bottom: 10px;
 }
 
 h2 {
@@ -113,31 +133,37 @@ h6 {
  font-size: 16px;
 }
 
-p, a, ol, ul, {
+p, a, ol, ul {
  font-family: "Roboto Mono", "Trebuchet MS";
  font-size: 12px;
  font-weight: 400;
  color: #fff;
 }
 
+/* caixa */
+
+.caixa {
+ display: flex;
+ justify-content: center;
+}
+
 /* configura o botão preto */
 
 .button1 {
- display: inline-block;
- text-align: center;
- text-decoration: none;
- outline: none;
+ text-decoration: none!important;
  color: #fff!important;
- background-color: #000000;
- border: none;
+ background-color: #000000!important;
+ font-weight: 700!important;
+ box-shadow: 5px grey;
  font-family: "Roboto Mono", "Trebuchet MS"!important;
+ border: 2px black;
 }
 
 .button1:hover {
- background-color: #fff;
- border: #000000;
- border-radius: 1px;
- color: #000000;
+ background-color: #fff!important;
+ border: none!important;
+ color: #000000!important;
+ box-shadow: 0 0 0 3px black!important;
 }
 
 .button1:active {
@@ -160,13 +186,13 @@ p, a, ol, ul, {
 }
 
 .button2:hover {
-    background-color: #000000;
-    border: none;
-    color: #fff;
+    background-color: #515151!important;
+    border: none!important;
+    color: #fff!important;
 }
 
 .button2:active {
- background-color: #515151;
+ background-color: #000000;
  color:#fff;
 }
 
@@ -174,7 +200,7 @@ p, a, ol, ul, {
 
 .large {
  font-size: 21px;
- padding: 280px 60px;
+ padding: 28px 60px;
 }
 
 .medium {
@@ -187,3 +213,14 @@ p, a, ol, ul, {
  font-size: 14px;
  padding: 140px 40px;
 }
+
+/* headings 2 */
+
+.heading:first-child {
+ margin-top: 40px;
+}
+
+.heading {
+    margin-bottom: 40px;
+   }
+   
