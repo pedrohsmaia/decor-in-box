@@ -2,54 +2,86 @@
  text-align: left;
 }
 
-/* navbar superior */
-
-.topnav {
- padding: 10px 16px;
- background: #000000;
- color: #fff;
- white-space: nowrap;
-}
-   
- .content {
- padding: 16px;
-}
-   
-.sticky {
- position: fixed;
- top: 0;
- left: 0;
- width: 100%;
-}
-   
-.sticky + .content {
- padding-top: 102px;
-}
-
 /* botões da navbar */
 
-.topnav a {
+.bg-black {
+ background-color: #000000;
+}
+
+.navbuttonmob {
+ font-size: 25px;
+ text-decoration: none;
+ font-family: "Roboto Mono", "Trebuchet MS";
+ font-weight: 400;
+ color: #fff!important;
+ margin-right: 15px;
+ position:relative;
+ margin-top: 22px;
+ margin-bottom: 22px;
+}
+
+
+.navbuttoncta {
+ position: relative;
+ margin-top: 22px;
+margin-bottom: 22px;
+}
+
+.navbuttonmob:hover {
+ color: #ababab!important;
+ background-color: #ababab56;
+ }
+
+.topnav {
  position: relative;
  font-family: "Roboto Mono", "Trebuchet MS";
- font-size: 18px;
  font-weight: 400;
  color: #fff;
  text-decoration: none;
- display: inline-block;
  padding-bottom: 5px;
  padding-top: 5px;
  padding-right: 40px;
- bottom: 25px;
+ top: 25px;
 }
 
-.topnav a:hover {
- color: #ababab;
-}
+/* logo */
 
+
+.logo {
+    color: #fff!important;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border: 1px solid #00D2AD;
+    padding-right: 1px!important;
+    padding-top: 1px!important;
+    padding-bottom: 1px!important;
+    padding-left: 2px!important;
+}
+    
+@media screen and (max-width: 400px) {
+    .navbar-brand {
+ margin-right: 0!important;
+    }
+    #navcontainer {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    }
+    .navbar-toggler {
+     margin-right: 0!important;
+    }
+    }
+
+
+    @media screen and (min-width: 768px) {
+       .logo {
+    margin-left: 18%;
+   } }
 
 h1, h2, h3, h4, h5, h6 {
  font-family: "Montserrat Bold", "Verdana"
 }
+
+/* headings */
 
 h1, h2, h5, h6 {
  font-weight: 700;
@@ -81,7 +113,7 @@ h6 {
  font-size: 16px;
 }
 
-p, a, ol, ul, button {
+p, a, ol, ul, {
  font-family: "Roboto Mono", "Trebuchet MS";
  font-size: 12px;
  font-weight: 400;
@@ -95,9 +127,10 @@ p, a, ol, ul, button {
  text-align: center;
  text-decoration: none;
  outline: none;
- color: #fff;
+ color: #fff!important;
  background-color: #000000;
  border: none;
+ font-family: "Roboto Mono", "Trebuchet MS"!important;
 }
 
 .button1:hover {
@@ -119,10 +152,11 @@ p, a, ol, ul, button {
  text-align: center;
  text-decoration: none;
  outline: none;
- color: #000000;
+ color: #000000!important;
  background-color: #fff;
  border: none;
- font-weight: 700;
+ font-weight: 700!important;
+ font-family: "Roboto Mono", "Trebuchet MS"!important;
 }
 
 .button2:hover {
@@ -144,8 +178,8 @@ p, a, ol, ul, button {
 }
 
 .medium {
- font-size: 17px;
- padding: 10px 30px;
+ font-size: 25px;
+ padding: 10px 30px!important;
  font-weight: 700;
 }
 
@@ -153,14 +187,3 @@ p, a, ol, ul, button {
  font-size: 14px;
  padding: 140px 40px;
 }
-
-.logo {
-    width: auto;
-    height: auto;
-    max-width: 249px;
-    max-height: 58px;
-    padding-top: 14px;
-    padding-right: 40px;
-    padding-bottom: 6px;
-    padding-left: 130px;
-   }
