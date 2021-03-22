@@ -1,51 +1,47 @@
-* {
- text-align: left;
-}
 
 /* botões da navbar */
 
 .bg-black {
- background-color: #000000;
+    background-color: #000000;
 }
 
 .navbuttonmob {
- font-size: 25px;
- text-decoration: none;
- font-family: "Roboto Mono", "Trebuchet MS";
- font-weight: 400;
- color: #fff!important;
- margin-right: 15px;
- position:relative;
- margin-top: 22px;
- margin-bottom: 22px;
+    font-size: 21px;
+    text-decoration: none;
+    font-family: "Roboto Mono", "Trebuchet MS";
+    font-weight: 400;
+    color: #fff!important;
+    margin-right: 15px;
+    position:relative;
+    margin-top: 22px;
+    margin-bottom: 22px;
 }
 
-
 .navbuttoncta {
- position: relative;
- margin-top: 22px;
-margin-bottom: 22px;
+    position: relative;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 21px!important;
 }
 
 .navbuttonmob:hover {
- color: #ababab!important;
- background-color: #ababab56;
- }
+    color: #ababab!important;
+    background-color: #ababab56;
+}
 
 .topnav {
- position: relative;
- font-family: "Roboto Mono", "Trebuchet MS";
- font-weight: 400;
- color: #fff;
- text-decoration: none;
- padding-bottom: 5px;
- padding-top: 5px;
- padding-right: 40px;
- top: 25px;
+    position: relative;
+    font-family: "Roboto Mono", "Trebuchet MS";
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 40px;
+    top: 25px;
 }
 
 /* logo */
-
 
 .logo {
     color: #fff!important;
@@ -60,157 +56,159 @@ margin-bottom: 22px;
     
 @media screen and (max-width: 400px) {
     .navbar-brand {
- margin-right: 0!important;
+        margin-right: 0!important;
     }
     #navcontainer {
-    padding-left: 0!important;
-    padding-right: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
     }
     .navbar-toggler {
-     margin-right: 0!important;
+        margin-right: 0!important;
     }
     .tophead {
-     font-size: 40px!important;
-     padding-top: 5%;
+        font-size: 40px!important;
+        padding-top: 5%;
     }
     
-    }
+}
 
-    @media screen and (max-width: 713px) {
-        .logo {
-            margin-left: 0!important;
-        }
+@media screen and (max-width: 713px) {
+    .logo {
+        margin-left: 0!important;
     }
+}
 
-    @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .imghero {
-    display: none;
+        display: none;
     }
-    
+}
+
+@media screen and (min-width: 500px) {
+    .logo {
+        margin-left: 14rem;
     }
 
-    @media screen and (min-width: 500px) {
-       .logo {
-    margin-left: 50%;
-   }
+    .navbuttoncta {
+        margin-left: 50px;
+    }
 
-   .navbuttoncta {
-       margin-left: 50px;
-   }
+    .image-heromobile{
+        display: none;
+    }
 
-   .image-heromobile{
-    display: none;
-   }
-
-   .tophead {
-    padding-top: 15%;
-   }
+    .tophead {
+        padding-top: 15%;
+    }
    
 }
 
 /* hero */
 
 .imghero {
- background-image: url(images/backgroundcaixa.png);
- background-position: center;
- background-size: cover;
- padding-top: 10%;
- padding-left: 5%!important;
- margin-top: 65px!important;
+    padding-top: 10%;
+    padding-left: 5%!important;
+    margin-top: 65px!important;
 }
 
 /* headings */
 h1, h2, h3, h4, h5, h6 {
- font-family: "Montserrat Bold", "Verdana"!important;
- color: #000000;
+    font-family: "Montserrat Bold", "Verdana"!important;
+    color: #000000;
 }
 
 h1, h2, h5, h6 {
- font-weight: 700!important;
+    font-weight: 700!important;
 }
 
 h1 {
- font-size: 48px!important;
- padding-bottom: 10px!important;
+    font-size: 48px!important;
+    padding-bottom: 10px!important;
 }
 
 h2 {
- font-size: 32px!important;
+    font-size: 32px!important;
+    text-decoration: none;
 }
 
 h3 {
- font-size: 26px!important;
- font-weight: 400!important;
+    font-size: 26px!important;
+    font-weight: 400!important;
 }
 
 h4 {
- font-size: 20px!important;
- font-weight: 500!important;
- margin-top: 10px!important;
- font-weight: 700!important;
+    font-size: 20px!important;
+    font-weight: 500!important;
+    margin-top: 10px!important;
+    font-weight: 700!important;
 }
 
 h5 {
- font-size: 18px!important;
+    font-size: 18px!important;
 }
 
 h6 {
- font-size: 16px!important;
+    font-size: 16px!important;
 }
 
 p {
- font-family: "Roboto Mono", "Trebuchet MS" !important;
- font-size: 17px!important;
- font-weight: 500!important;
- color: #000000!important;
+    font-family: "Roboto Mono", "Trebuchet MS" !important;
+    font-size: 17px!important;
+    font-weight: 500!important;
+    color: #000000!important;
 }
 
+.accordionbutton {
+    text-decoration: none!important;
+    color: #000000!important;
+    font-size: 28px!important;
+}
 /* caixa */
 
 .caixa {
- display: flex;
- justify-content: center;
- width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 /* configura o botão preto */
 
 .button1 {
- text-align: center;
- text-decoration: none!important;
- color: #fff!important;
- background-color: #000000!important;
- font-weight: 700!important;
- box-shadow: 5px grey;
- font-family: "Roboto Mono", "Trebuchet MS"!important;
- border: none;
- outline: none;
+    text-align: center;
+    text-decoration: none!important;
+    color: #fff!important;
+    background-color: #000000!important;
+    font-weight: 700!important;
+    box-shadow: 5px grey;
+    font-family: "Roboto Mono", "Trebuchet MS"!important;
+    border: none;
+    outline: none;
 }
 
 .button1:hover {
- background-color: #fff!important;
- border: none!important;
- color: #000000!important;
- box-shadow: 0 0 0 3px black!important;
+    background-color: #fff!important;
+    border: none!important;
+    color: #000000!important;
+    box-shadow: 0 0 0 3px black!important;
 }
 
 .button1:active {
- background-color: #515151;
- color:#fff;
+    background-color: #515151;
+    color:#fff;
 }
 
 /* configura o botão branco */
 
 .button2 {
- display: inline-block;
- text-align: center;
- text-decoration: none;
- outline: none;
- color: #000000!important;
- background-color: #fff;
- border: none;
- font-weight: 700!important;
- font-family: "Roboto Mono", "Trebuchet MS"!important;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000000!important;
+    background-color: #fff;
+    border: none;
+    font-weight: 700!important;
+    font-family: "Roboto Mono", "Trebuchet MS"!important;
 }
 
 .button2:hover {
@@ -220,41 +218,88 @@ p {
 }
 
 .button2:active {
- background-color: #000000;
- color:#fff;
+    background-color: #000000;
+    color:#fff;
 }
 
 /* tamanho dos botões */
 
 .large {
- font-size: 32px!important;
- padding-top: 20px;
- padding-bottom: 20px;
- font-weight: 700;
- width: 280px;
+    font-size: 32px!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    width: 280px;
 }
 
 .medium {
- font-size: 25px;
- padding: 10px 30px!important;
- font-weight: 700;
- padding-left: 6px;
- padding-right: 6px;
+    font-size: 25px;
+    padding: 10px 30px!important;
+    font-weight: 700;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 .small {
- font-size: 14px;
- padding: 140px 40px;
+    font-size: 14px;
+    padding: 140px 40px;
 }
 
 /* headings 2 */
 
 .heading:first-child {
- margin-top: 100px;
+    margin-top: 100px;
 }
 
 .heading {
     margin-bottom: 10%;
     text-align: left;
-   }
+}
    
+/* carousel */
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.card {
+    border: none!important;
+}
